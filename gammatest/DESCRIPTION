@@ -1,0 +1,17 @@
+Package: gammatest
+Title: Numerical algorithms for computing in incomplete gamma functions in C++
+Version: 0.0.0.1001
+Author: Dean Bodenham
+Maintainer: Dean Bodenham <deanbodenhambsse@gmail.com>
+Description: Tests numerical algorithms for computing the incomplete gamma 
+             function and the cumulative distribution function for the
+             chi-squared distribution
+Depends:
+    R (>= 3.3.0)
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+Imports: Rcpp
+RoxygenNote: 6.0.1
+Suggests: testthat
